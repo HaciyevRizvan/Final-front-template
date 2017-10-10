@@ -188,3 +188,83 @@ ul{padding: 0;
   }
 .padd{
   padding:0}
+
+  //About-Overview-part
+  .over_second{
+    background:url(../images/over_background.jpg) no-repeat center center;background-size:cover;min-height:500px;
+    position:relative;
+    .content{h2{color:white;text-align:center;position:relative;top:180px;font-size:50px;}
+  }
+  ul{position: absolute;top: 405px;left: 476px;li{list-style:none;display:inline-block;color:white;padding:0px 15px;
+    a{color:#f9ad40;text-decoration:none;&:hover{text-decoration:underline;}}
+  i{padding-left:20px;}}}
+  }
+  // third
+  .over_third{
+    min-height:700px;padding:0px 50px 0px 80px;position:relative;
+    .text{position:relative;margin-left:75px;top:50px;padding-bottom:100px;padding-top:50px;
+      h2{margin:0;color:black;font-weight:300;}
+      h2::before{content: "";position: absolute;top:63px;margin-left:-55px;width: 45px;height: 4px;background: black;}}
+      .top{position: absolute;border-radius: 3px;max-width:400px;
+        h3{color: gray;line-height: 1.4;padding-bottom: 50px;font-size: 18px;margin-bottom:0px;
+    }
+        p{color:gray;font-weight:300;padding-top:10px;font-size:15px;}
+        .latest_button{text-decoration:none;color:white;text-transform:uppercase;background: transparent;
+          padding: 22px 60px;border-radius: 50px;position:relative;top:40px;border:1px solid white;text-transform:uppercase;
+          &:hover{background:#f9ad40;transition: 0.3s ease-in;}
+          }
+        }
+        .images{.first_image{position:absolute;max-width:425px;z-index:0;top:100px;right:0;}
+        .second_image{max-width:425px;position:absolute;top:220px;position: absolute;left:-50px;z-index:1;}}
+        }
+        // four
+        .over_four{background:url(../images/over_four.jpg) no-repeat center center;background-size:cover;min-height:270px;
+        background-attachment:fixed;
+        .result{    text-align: center;color: white;font-size: 45px;border-left:1px solid gray;position:relative;
+        left:125px;top:75px;height:120px;span{font-weight:700;}
+        h6{color:#f9ad40;}
+        }
+        .latest{border-right:1px solid gray;}
+        }
+        .over_eight{min-height:400px;
+          .text{position:relative;margin-left:75px;top:50px;padding-bottom:100px;padding-top:50px;
+            h2{margin:0;color:black;font-weight:300;}
+            h2::before{content: "";position: absolute;top:63px;margin-left:-55px;width: 45px;height: 4px;background: black;}}
+
+i{padding:30px 20px;background: #f9ad40;color: white;font-size: 73px;width:125px;text-align:center;}
+.write{position: absolute;top:-5px;left: 175px;h4{cursor:pointer;color:#337ab7;&:hover{color:#f9ad40;}}}}
+
+.overview_four{
+ min-height:600px;padding:0px 40px;position:relative;overflow: hidden;
+    .text{    padding: 10px 0px 40px 65px;h2{color:#222;font-weight:300;}
+    h2::before{content: "";position: absolute;top: 43px;left:15px;width: 45px;height: 4px;background: #302F2F;}}
+    .info{h5{margin-left:30px;color:#15aecf;}display:inline-block;}
+    .content{position:absolute;left:170px;top:0;p{padding: 0px 6%;font-size: 20px;font-weight:400;line-height:1.4;}}
+    .content::before{content: '\f10d';font-style: normal;position: relative;top: 0;left: 30px;
+    font-family: 'FontAwesome';font-size: 36px;color: #f9ad40;}
+    .icons{.up{position: absolute;left:50px;top:250px;font-size: 30px;color: lightgray; &:hover{color:#15aecf;transition:.3s ease;cursor:pointer;}}
+    .down{position: absolute;left:95px;top:250px;font-size:30px;color: lightgray; &:hover{color:#15aecf;transition:.3s ease;cursor:pointer;}}
+  }
+  .images{.first_image{position:absolute;max-width:425px;z-index:1;top:10px;left:0;}
+.second_image{max-width:425px;position:absolute;top:0;position: absolute;left: 240px;}}
+.latest_col{position: absolute;right: -665px;}
+}     
+.over_images{img{max-width:224.83px;height:224.83px;cursor:pointer;}.padd{padding-left:0;}} 
+    
+.press{min-height:500px;
+  .text{    padding: 10px 0px 40px 65px;h2{color:#222;font-weight:300;}
+  h2::before{content: "";position: absolute;margin-top: 15px;left:15px;width: 45px;height: 4px;background: #302F2F;}}
+ .marg{margin-left:0px;margin-right:0px;}
+ a{text-decoration:none;h1{font-size:22px;color:#15aecf;&:hover{color:#f9ad40;transition:all .3s ease;}}}
+ p{color:gray;}
+}
+// section five
+.over_five{min-height:500px;.text{    padding: 10px 0px 0px 100px;h2{color:#222;font-weight:300;}
+h2::before{content: "";position: absolute;margin-top: 15px;left:50px;width: 45px;height: 4px;background: #302F2F;}}
+.secret{margin-left:30px;a{text-decoration:none;
+h1{font-size:22px;color:#15aecf;&:hover{color:#f9ad40;transition:all .3s ease;}}}
+p{color:gray;}}
+
+}
+// FAQ
+.faq{min-height:600px;h1{text-align: center;}}
